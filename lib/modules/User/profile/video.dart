@@ -15,6 +15,7 @@ class VideoProfileUser extends StatelessWidget {
       listener: (context,state){},
       builder: (context,state){
         return Scaffold(
+
           body: UserLayoutCubit.get(context).userVideo.length==0?Column(
             children: [
               Text('No Video upload a video')
@@ -30,7 +31,8 @@ class VideoProfileUser extends StatelessWidget {
                           var postId =UserLayoutCubit.get(context).userVideoId[index];
                           Navigator.push(context, MaterialPageRoute(builder: (context)=>CommentUserPageProfile(postId.toString(),'Video')));
                             },
-                            like:UserLayoutCubit.get(context).likesVideo[index] ),
+                            // like:UserLayoutCubit.get(context).likesVideo[index]
+                        ),
                       onTap: (){
                           var videoUrl=UserLayoutCubit.get(context).userVideo[index].video;
                           Navigator.push(context, MaterialPageRoute(builder: (context)=>InnerVider(videoUrl: videoUrl.toString(),)));

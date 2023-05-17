@@ -516,7 +516,8 @@ Widget buildPostProfileVideo({PostModel? model,function,Function ?likeFun,like})
                 IconButton(onPressed: (){
                   likeFun!();
                 }, icon: Icon(CupertinoIcons.heart_fill,color: Colors.grey,)),
-                Text('$like')
+                like==null?
+                Text(''):Text('$like')
               ],
             ),
             Spacer(),
