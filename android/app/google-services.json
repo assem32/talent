@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "751377717465",
+    "project_id": "talent-c180a",
+    "storage_bucket": "talent-c180a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751377717465:android:5aba8343061b61499586c8",
+        "android_client_info": {
+          "package_name": "com.example.talent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751377717465-v861s85edc06jqukaqpe869puq6b9mk8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.talent",
+            "certificate_hash": "2fcbdde4e6d2e50b25d0f0b42edb96b8eae6320a"
+          }
+        },
+        {
+          "client_id": "751377717465-it8932a4k0c8acod54dapq0esflfrt2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcq8JQmc9aSS9KsRAEO0QDwv3cSrTUooE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751377717465-it8932a4k0c8acod54dapq0esflfrt2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
